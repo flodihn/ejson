@@ -1,0 +1,14 @@
+{application, ejson,
+ [
+  {description, "An Erlang ejson library"},
+  {vsn, "1"},
+  {modules, [
+             ejson
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
