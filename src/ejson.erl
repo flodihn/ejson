@@ -15,7 +15,7 @@
 %%% All Rights Reserved.
 
 %% @hidden
--module(json).
+-module(ejson).
 -export([encode/1, decode_string/1, decode/2]).
 -export([is_obj/1, obj_new/0, obj_fetch/2, obj_find/2, obj_is_key/2]).
 -export([obj_store/3, obj_from_list/1, obj_fold/3]).
